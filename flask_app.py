@@ -9,14 +9,14 @@ from base64 import b64encode, b64decode
 
 from supabase_py import create_client
 
-supabase_url = 'https://wuqffzjavqxkzvabwnvz.supabase.co'
-supabase_key = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind1cWZmemphdnF4a3p2YWJ3bnZ6Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcwODUwMDY3MCwiZXhwIjoyMDI0MDc2NjcwfQ.axfgDKqajY8xfm4AH2UarSP-iv-YIh64vNLWvzuvalU'
+supabase_url = ''
+supabase_key = ''
 client = create_client(supabase_url, supabase_key)
 
 
-key = b'6f3a825f7b3ed17c529e0be6e0441d9a'
+key = b''
 
-token = '6822053828:AAHxDWES7AWJjRK91EawGS6k6IRvHfyy9PU'
+token = ''
 bot = telebot.TeleBot(token, threaded=False)
 
 WEBHOOK_HOST = 'teleapigps.pythonanywhere.com'
